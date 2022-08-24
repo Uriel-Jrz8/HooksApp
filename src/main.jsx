@@ -10,9 +10,13 @@ import { Layout } from './05-useLayoutEffect/Layout'
 import { Memorize } from './06-memos/Memorize'
 import { HooksApp } from './HooksApp'
 import './index.css'
+//import './08-useReduce/intro-reduce';
+
+
+import { TodoApp } from './08-useReduce/TodoApp'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   //<React.StrictMode>
-    <Memorize />
+    <TodoApp />
   //</React.StrictMode>
 )
