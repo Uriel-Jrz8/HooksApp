@@ -1,11 +1,5 @@
 import { useForm } from "../../hooks"
 
-
-
-
-
-
-
 export const TodoAdd = ({ onNewTodo }) => {
 
     const { description, onInputChange, onReset } = useForm({
